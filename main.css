@@ -1,0 +1,413 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+
+    color: white;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+    background: rgba(6, 6, 41);
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    z-index: 1;
+    margin: 0;
+    background: rgba(6, 6, 41);
+
+}
+
+span {
+    color: rgb(221, 196, 5);
+    font-size: 2rem;
+}
+
+.nav_con {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0 6rem;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    gap: 4rem;
+    margin: 0 4rem;
+    overflow: hidden;
+}
+
+
+.nav_list a:hover {
+    color: rgb(221, 196, 5);
+    border: 1ps solid white;
+
+}
+
+header {
+    position: relative;
+    overflow: hidden;
+    height: 85vh;
+    margin-bottom: 5rem;
+
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+    margin: 8rem 6rem;
+
+}
+
+.me h1 {
+    font-size: 3rem;
+}
+
+.me span {
+    color: white;
+    font-weight: 200;
+    font-size: 3rem;
+
+}
+
+.me h2 {
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.me p {
+    font-size: 1.5rem;
+    color: rgb(221, 196, 5);
+}
+
+#img_me {
+    background: rgb(221, 196, 5);
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: white;
+    color: rgba(6, 6, 41);
+    padding: 2rem;
+    width: 100vw;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.about_me h1,
+p {
+    color: rgba(6, 6, 41);
+    font-size: 1.2rem;
+
+}
+
+.about_me h1 {
+    font-size: 2rem;
+}
+
+/*==============SKILLS SECTION===================*/
+.icons_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin: 4rem 5rem;
+    text-align: center;
+}
+
+#skills {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+    font-size: 1.5rem;
+}
+
+#skills_h1 {
+    color: rgb(221, 196, 5);
+}
+
+#skillsp {
+    color: white;
+    font-size: medium;
+}
+
+.icon {
+    gap: 5rem;
+    width: 10%;
+    height: 10%;
+}
+
+.icon p {
+    color: white;
+    font-size: 0.9rem;
+}
+
+#icon_rwd,
+#icon_mad,
+#tw,
+#ui,
+#it,
+#tr {
+    width: 50px;
+}
+
+/*============PROJECTS SECTION===================*/
+.my_work {
+    background: rgb(31, 31, 54);
+    height: auto;
+    width: auto;
+    margin: 1rem auto;
+    padding: 3rem;
+    text-align: center;
+    color: white;
+
+
+}
+
+#ptag {
+    color: white;
+    margin-top: 1rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    margin: 3rem auto;
+
+}
+
+.card {
+    background: wheat;
+    width: 350px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 3rem;
+
+}
+
+.works_imgs {
+    width: 100%;
+    height: 100%;
+    border-radius: 3rem;
+}
+
+/*===================FOOTER SECTION ==========*/
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.social_ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8rem;
+}
+
+
+.pfoot {
+    margin-bottom: 5px;
+}
+
+#pfoot {
+    font-size: 2rem;
+}
+
+#pfoot2 {
+    font-size: 2rem;
+}
+
+.footer_socials {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.face {
+    background: green;
+    border-radius: 50%;
+    padding: 0.5rem;
+
+
+}
+
+.twit {
+    background: rgb(17, 150, 212);
+    border-radius: 50%;
+    padding: 0.5rem;
+
+}
+
+.lin {
+    background: rgb(235, 184, 14);
+    border-radius: 50%;
+    padding: 0.5rem;
+
+}
+
+.ingrm {
+    background: rgb(128, 0, 41);
+    border-radius: 50%;
+    padding: 0.5rem;
+
+}
+
+.pfoot {
+    color: white;
+    font-size: 1rem;
+}
+
+.small {
+    margin: 1rem 0;
+    width: 100%;
+    text-align: center;
+}
+
+hr {
+    color: grey;
+}
+
+/*===========CONTACT PAGE===============*/
+
+.contact_container {
+    background: rgba(6, 6, 41);
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 4rem;
+    height: 30rem;
+    margin: 10rem auto 5rem;
+    border-radius: 1rem;
+}
+
+/*============================ASIDE==========================*/
+.contact_aside {
+    background: rgba(6, 6, 41);
+    padding: 3rem;
+    border-radius: 2rem;
+    position: relative;
+    bottom: 10rem;
+    border: 1px solid white;
+}
+
+.aside_image {
+    width: 15rem;
+    margin-bottom: 2rem;
+}
+
+.contact_aside h2 {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.contact_aside p {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.contact_details li {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.contact_socials {
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 3rem;
+}
+
+.contact_socials a {
+    background: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+    font-size: 0.9rem;
+
+}
+
+
+/*==============FORM=================*/
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1.2rem;
+    margin-right: 4rem;
+    margin-top: -8rem;
+}
+
+.form_name {
+    display: flex;
+    gap: 1.2rem;
+
+}
+
+.contact_form input[type="text"] {
+    width: 50%;
+
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 1rem;
+    background: rgba(6, 6, 41);
+    color: white;
+    border-radius: 2rem;
+}
+
+.contact_form .btn {
+    width: max-content;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    cursor: pointer;
+    color: rgba(6, 6, 41);
+}
+
+
+/*-------------MEDIA QUERIES SECTION----------*/
+
+@media screen and all ()
