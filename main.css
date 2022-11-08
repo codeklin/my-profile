@@ -264,85 +264,6 @@ p {
     border-radius: 3rem;
 }
 
-/*===================FOOTER SECTION ==========*/
-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-
-}
-
-.social_ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 8rem;
-}
-
-
-.pfoot {
-    margin-bottom: 5px;
-}
-
-#pfoot {
-    font-size: 2rem;
-}
-
-#pfoot2 {
-    font-size: 2rem;
-}
-
-.footer_socials {
-    display: flex;
-    gap: 1rem;
-
-}
-
-.face {
-    background: green;
-    border-radius: 50%;
-    padding: 0.5rem;
-
-
-}
-
-.twit {
-    background: rgb(17, 150, 212);
-    border-radius: 50%;
-    padding: 0.5rem;
-
-}
-
-.lin {
-    background: rgb(235, 184, 14);
-    border-radius: 50%;
-    padding: 0.5rem;
-
-}
-
-.ingrm {
-    background: rgb(128, 0, 41);
-    border-radius: 50%;
-    padding: 0.5rem;
-
-}
-
-.pfoot {
-    color: white;
-    font-size: 1rem;
-}
-
-.small {
-    margin: 1rem 0;
-    width: 100%;
-    text-align: center;
-}
-
-hr {
-    color: grey;
-}
 
 /*===========CONTACT PAGE===============*/
 
@@ -408,7 +329,6 @@ hr {
 
 }
 
-
 /*==============FORM=================*/
 .contact_form {
     display: flex;
@@ -422,12 +342,10 @@ hr {
 .form_name {
     display: flex;
     gap: 1.2rem;
-
 }
 
 .contact_form input[type="text"] {
     width: 50%;
-
 }
 
 input,
@@ -446,6 +364,85 @@ textarea {
     border-radius: 15px;
     cursor: pointer;
     color: rgba(6, 6, 41);
+}
+
+/*===================FOOTER SECTION ==========*/
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+
+
+}
+
+.social_ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8rem;
+}
+
+
+.pfoot {
+    margin-bottom: 5px;
+}
+
+#pfoot {
+    font-size: 2rem;
+}
+
+#pfoot2 {
+    font-size: 2rem;
+}
+
+.footer_socials {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.face {
+    background: green;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.twit {
+    background: rgb(17, 150, 212);
+    border-radius: 50%;
+    padding: 0.5rem;
+
+}
+
+.lin {
+    background: rgb(235, 184, 14);
+    border-radius: 50%;
+    padding: 0.5rem;
+
+}
+
+.ingrm {
+    background: rgb(128, 0, 41);
+    border-radius: 50%;
+    padding: 0.5rem;
+
+}
+
+.pfoot {
+    color: white;
+    font-size: 1rem;
+}
+
+.small {
+    margin: 1rem 0;
+    width: 100%;
+    text-align: center;
+}
+
+hr {
+    color: grey;
 }
 
 
@@ -486,6 +483,7 @@ textarea {
         width: 100%;
         text-align: center;
         transition: 0.3s;
+
     }
 
     .nav-item {
@@ -494,6 +492,7 @@ textarea {
 
     .nav-menu.active {
         left: 0;
+
     }
 
     /*============HERO SECTION===============*/
@@ -595,6 +594,14 @@ textarea {
 
 @media(max-width:570px) {
 
+    .hi {
+        margin: 2rem;
+    }
+
+    .skillsp {
+        margin: 3rem;
+    }
+
     .contact {
         margin-top: 15rem;
     }
@@ -608,24 +615,29 @@ textarea {
         height: 30rem;
         margin: 10rem auto 5rem;
         border-radius: 1rem;
+        height: auto;
+
+
     }
 
     /*============================ASIDE==========================*/
+
     .contact_aside {
-        padding: 3rem;
-        position: relative;
-        bottom: 10rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
+        padding: 3rem;
+        bottom: 10rem;
+
 
     }
 
     .aside_image {
         width: 10rem;
         margin-bottom: 2rem;
+
     }
 
     /*==============FORM=================*/
@@ -657,6 +669,14 @@ textarea {
     }
 
     .contact footer {
+        display: none;
+    }
+
+    .foot_link {
+        margin: 1rem;
+    }
+
+    small {
         display: none;
     }
 }
