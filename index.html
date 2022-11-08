@@ -15,28 +15,47 @@
 </head>
 
 <body>
-    <nav>
-        <div class="nav_con">
-            <a href="index.html">
-                <h4>OLAJIDE<span>.</span></h4>
-            </a>
-            <div class="nav_list">
-                <div><a href="#about">About Me</a></div>
-                <div><a href="#skills">Services</a></div>
-                <div><a href="#my_works">Projects</a></div>
-                <div><a href="contact.html">Contact</a></div>
+    <nav-main>
+        <div class="container">
+            <div class="subcontainer">
+                <nav class="navbar">
+                    <a href="index.html" class="nav-branding">OLAJIDE<span>.</span></a>
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#skillsp" class="nav-link">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#ptag" class="nav-link">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
             </div>
         </div>
-    </nav>
+    </nav-main>
+
+    <!----------------HERO SECTION-------------------->
     <header>
         <section class="hero">
-            <div class="me">
-                <h1><span>Hi, I am </span>Olajide Igbalaye</h1>
-                <h2>I am a Software Engineer</h2>
-                <P>I do Fullstack Web Development</P>
-            </div>
-            <div>
-                <img src="./imgs/img.png" id="img_me">
+            <div class="sub-hero">
+                <div class="hi">
+                    <h1><span>Hi, I am </span>Olajide Igbalaye</h1>
+                    <h2>I am a Software Engineer</h2>
+                    <P>I do Fullstack Web Development</P>
+                </div>
+                <div class="img-right">
+                    <img src="./imgs/img.png" id="img_me">
+                </div>
             </div>
         </section>
     </header>
@@ -44,7 +63,7 @@
         <section>
             <div class="about_me">
                 <h1 id="about">About Me</h1>
-                <p>I am a Software Engineer.<br>
+                <p>
                     I am passionate about solving Africa poverty problem through the use of technology.<br>
                     My intention is to train One Milllion youths that will become
                     great problem solvers and leaders of tomorrow.<br>
@@ -54,10 +73,10 @@
                 </p>
             </div>
         </section>
-        <section class="skillsp">
+        <section id="skillsp">
             <div id="skills">
                 <h1 id="skills_h1">My Skills</h1>
-                <p id="skillsp">If you are looking for the right place
+                <p class="skillsp">If you are looking for the right place
                     to contract projects or collaborate, <br>You will find me proficient and fitting in the following
                     areas.
                 </p>
@@ -138,6 +157,7 @@
         </div>
 
     </footer>
+    <script src="script.js" async defer></script>
 </body>
 
 </html>

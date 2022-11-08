@@ -11,23 +11,39 @@
     <!--ICONSCOUT CDN-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
 
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <nav>
-        <div class="nav_con">
-            <a href="index.html">
-                <h4>OLAJIDE<span>.</span></h4>
-            </a>
-            <div class="nav_list">
-                <div><a href="index.html#about">About Me</a></div>
-                <div><a href="index.html#skills">Services</a></div>
-                <div><a href="index.html#my_works">Projects</a></div>
-                <div><a href="contact.html" target="_blank">Contact</a></div>
+    <nav-main>
+        <div class="container">
+            <div class="subcontainer">
+                <nav class="navbar">
+                    <a href="index.html" class="nav-branding">OLAJIDE<span>.</span></a>
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="/index.html#about" class="nav-link">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html#skillsp" class="nav-link">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html#ptag" class="nav-link">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
             </div>
         </div>
-    </nav>
+    </nav-main>
+
 
     <main>
         <section class="contact">
@@ -66,18 +82,18 @@
                 </form>
             </div>
         </section>
-        <hr>
-    </main>
 
+    </main>
+    <hr>
     <footer>
         <div class="foot_link"> </div>
 
         <div class="small">
-
             <small>Copywright &copy; Olajide Inc. 2022.</small>
         </div>
 
     </footer>
+    <script src="script.js" async defer></script>
 </body>
 
 </html>
