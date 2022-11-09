@@ -366,6 +366,13 @@ textarea {
     color: rgba(6, 6, 41);
 }
 
+.btn.btn-primary:hover {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    transition: 0.4s;
+}
+
 /*===================FOOTER SECTION ==========*/
 footer {
     display: flex;
@@ -483,6 +490,7 @@ hr {
         width: 100%;
         text-align: center;
         transition: 0.3s;
+        z-index: 1;
 
     }
 
@@ -615,7 +623,7 @@ hr {
         height: 30rem;
         margin: 10rem auto 5rem;
         border-radius: 1rem;
-        height: auto;
+
 
 
     }
