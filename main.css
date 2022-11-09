@@ -486,7 +486,6 @@ hr {
         gap: 0;
         flex-direction: column;
         background-color: rgba(6, 6, 41);
-        ;
         width: 100%;
         text-align: center;
         transition: 0.3s;
@@ -638,9 +637,12 @@ hr {
         text-align: center;
         padding: 3rem;
         bottom: 10rem;
+        position: inherit;
+
 
 
     }
+
 
     .aside_image {
         width: 10rem;
@@ -655,6 +657,7 @@ hr {
         justify-content: center;
         text-align: center;
         align-items: center;
+        margin-top: 2rem;
 
     }
 
